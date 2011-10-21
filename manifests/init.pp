@@ -26,6 +26,7 @@ notify {"php::apache":}
   case $operatingsystem {
     Debian: { include php::apache::debian }
     RedHat: { include php::apache::redhat }
+    Ubuntu: { include php::apache::debian }
   }
 
 }
