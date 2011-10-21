@@ -22,7 +22,7 @@ class php {
 }
 
 class php::apache inherits php {
-
+notify {"php::apache":}
   case $operatingsystem {
     Debian: { include php::apache::debian }
     RedHat: { include php::apache::redhat }

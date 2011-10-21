@@ -1,5 +1,5 @@
 class php::apache::common inherits php {
-
+notify {"php::apache::common":}
   augeas { "default php.ini settings":
     context => "/files/${phpini}",
     changes => [
