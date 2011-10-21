@@ -19,6 +19,6 @@ file { "/etc/php5/apache2/php.ini":
   apache::module { "php5":
     ensure => present,
     #require => Augeas["default php.ini settings"],
-    require => File["${phpini}"],
+    require => File["/etc/php5/apache2/php.ini"],
   }
 }
