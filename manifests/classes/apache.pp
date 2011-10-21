@@ -10,7 +10,7 @@ notify {"php::apache::common":}
 #    notify => Service["apache"],
 #  }
 
-file { "${phpini}":
+file { "/etc/php5/apache2/php.ini":
 	ensure => present,
 	content => template("php/php.ini.erb"),
 	notify => Service["apache"],
