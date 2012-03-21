@@ -1,0 +1,19 @@
+{
+  "name": "tombarber-php",
+  "author": "tombarber",
+  "description": "",
+  "license": "",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "version": "",
+  "checksums": {
+    "Modulefile": "ef91208c0a339e73073cd363160ebeb8",
+    "README": "0e430f61228e71582dd4bbb785aa4e57",
+    "manifests/init.pp": "cff69e5fd2934e4873975857aa6348b7",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "tests/init.pp": "779f99177c50609dacd977a32023d4dd"
+  },
+  "dependencies": []
+}
