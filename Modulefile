@@ -1,11 +1,10 @@
-name    'tombarber-php'
-version ''
-source ''
-author 'tombarber'
+name 'Analytical Labs-php'
+version '1.0'
+
+author 'Tom Barber'
 license ''
+project_page ''
+source ''
 summary ''
 description ''
-project_page ''
-
-## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
+dependency 'Analytical Labs/apache', '==1.0'

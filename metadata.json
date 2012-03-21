@@ -1,19 +1,34 @@
 {
-  "name": "tombarber-php",
-  "author": "tombarber",
+  "name": "Analytical Labs-php",
+  "author": "Tom Barber",
   "description": "",
   "license": "",
   "project_page": "",
   "source": "",
   "summary": "",
-  "version": "",
+  "version": "1.0",
   "checksums": {
-    "Modulefile": "ef91208c0a339e73073cd363160ebeb8",
-    "README": "0e430f61228e71582dd4bbb785aa4e57",
-    "manifests/init.pp": "cff69e5fd2934e4873975857aa6348b7",
+    "Modulefile": "5d65abb7a678ff32d53d25b8c773a395",
+    "README": "e0a21423ec1a86e0741a1660553dd9f9",
+    "files/httpd/php.load": "b0e63a55e0cccd54bfd097a0167a8494",
+    "manifests/apache.pp": "be687b3020665f64ae58f6163e9abe7e",
+    "manifests/apache/common.pp": "86b09adda6962cc380478d1ad1841d23",
+    "manifests/apache/debian.pp": "59249ea88924b5e2354ad7ac3ba7d23e",
+    "manifests/apache/redhat.pp": "b31cab197719ea9c90c4a454ed208822",
+    "manifests/debian.pp": "0c1247226404f98dca12016b1b9bc554",
+    "manifests/init.pp": "2c5f73964798a53ebc24c09232593eb4",
+    "manifests/module.pp": "765f2ec1f302a7555dcd3e6a4e35d57e",
+    "manifests/pear.pp": "4f37893cf5c1cbe1734d4d2b1b6a9d28",
+    "manifests/redhat.pp": "38abc20d8592fb09afb9fd3e6867d2fc",
     "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
     "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "templates/php.ini.erb": "227488a938341ca72654f2f2a4e40286",
     "tests/init.pp": "779f99177c50609dacd977a32023d4dd"
   },
-  "dependencies": []
+  "dependencies": [
+    {
+      "name": "Analytical Labs/apache",
+      "versionRequirement": "\u003d\u003d1.0"
+    }
+  ]
 }
